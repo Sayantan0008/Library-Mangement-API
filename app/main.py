@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes import book_routes, user_routes, borrow_routes
+from app.router import book_routes, user_routes, borrow_routes
 
 app = FastAPI()
 
