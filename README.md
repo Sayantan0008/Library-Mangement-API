@@ -4,6 +4,44 @@
 ## Overview
 The Library Management System API is a RESTful service for managing books, users, and borrowing records in a library. It supports CRUD operations for books and users.
 ---
+
+### Installation
+
+1. Create a virtual environment and activate it:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+
+   ```bash
+   python app/main.py
+   ```
+
+---
+
+### Folder Structure
+
+```
+library-management-system/
+├── app/                # Main application code
+│   ├── routes/         # API route handlers
+│   ├── database/       # Database connection and models
+│   └── services/       # Core functionalities (e.g., borrowing logic)
+├── tests/              # Unit tests for key functionalities
+├── README.md           # Setup instructions and API documentation
+└── requirements.txt    # Dependencies
+```
+
+---
 ## API Endpoints
 
 ### Books
