@@ -34,9 +34,8 @@ To run the tests for the API, use the following command:
 
 ```bash
 pytest tests/test_api.py
-
+```
 ---
-
 ### License
 
 This project is licensed under the MIT License.
